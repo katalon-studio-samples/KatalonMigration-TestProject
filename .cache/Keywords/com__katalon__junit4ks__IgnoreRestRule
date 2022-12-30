@@ -1,0 +1,14 @@
+{
+  "keywordFileContentHash": "498EA8AEE6BC4F6E17569BE0DC093F08",
+  "keywordClasses": [
+    {
+      "name": "com.katalon.junit4ks.IgnoreRestRule",
+      "keywordMethods": []
+    },
+    {
+      "name": "com.katalon.junit4ks.IgnoreRestRule$1",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

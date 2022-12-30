@@ -1,0 +1,680 @@
+id: tbhCQZqcikylJ_aolhESZw
+projectId: 1-tba4LbxUGQjX_WTIs76w
+projectName: Katalon Test Project
+created: 2022-12-02T17:17:38.5768148Z
+owner: Mohit Kumar
+protocol: 1
+tests:
+- id: QRzPy8xehEunBUExSIR2yA
+  name: Book an Appointment
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-12-02T17:10:29.0000000
+  modificationDate: 2022-12-02T17:12:15.0000000
+  settings:
+    automationAssistant: true
+    appId: YDSuJ-cNDEaS3FNoULJv2A
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: YDSuJ-cNDEaS3FNoULJv2A
+    name: Demo Application
+    url: https://katalon-demo-cura.herokuapp.com/
+    platform: Web
+  steps:
+  - id: 9e47TWO_xECgK6XWY6u4Og
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: tYoUwbuF3kGgRiUDV7DZZw
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: SVwGzJZ12E2j5jEyZEPTow
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 75A-mz10C0iStTYNsqNogg
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: EtNyreKLOUe-DqcyR-LG4g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: K5IokSq8Nk6HtjqbstI3Yg
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 0YUzLhT8tEaTHzJyxzq__w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3_UXdNm81EeZofpC_B3taw
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: 0YUzLhT8tEaTHzJyxzq__w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: John Doe
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: p4ajb1swG0KVusHFgybaAQ
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: isA3s9mjDECrwunjBJirkA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 51RmTxG2ukSME-ZCFKKhqQ
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: isA3s9mjDECrwunjBJirkA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: ThisIsNotAPassword
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vxgRJ4CdgUW3NOOkkKq3ag
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: sC_-B7qE2ke34_KbAWeSUA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 2eX3asQClUqkBwHDbRXqJA
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 500
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 78yj99cxFEqZGs0C8pZS3g
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: pFePKbgeekavst6o_ofxtg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: qejrh2RSzkSEedzKZG-i5A
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: pFePKbgeekavst6o_ofxtg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 45fdd921-b359-4d6a-b7c5-5f9a3612c0f2
+      source: System
+    parameterMaps:
+    - name: value
+      value: Seoul CURA Healthcare Center
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: z5CXzssSUkuwVviLmzTiLg
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: _7aWjLAKzkeLHQLdIesdcA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: aSuPi-a66EmbqmxpgFADhw
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: FMoqa3wHeku6Oqrcl73T8A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: S-tNkgV-lUWV8pmLZgTYng
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: 8dGkdWcVDUCmaBESGJqHWg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: eBXh9pXxoEeVv9mpkbpu2Q
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: 6VXEBT9IIUuB6AJVvtOx0A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5wr1fjSJDkKGu__3bus0JA
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: ZvSlKPjrDE6N8rUqE3fpNg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xeS0j4man0ah2RpRc15KrA
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: ZvSlKPjrDE6N8rUqE3fpNg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: Test demo
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: hBy5Ej1_N0eQnWwC2NaDYQ
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: KwQhDNDd6kuJU6XUXgDUWg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: nW8QhBzWfkeVcFMI5jUTVg
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Action
+    elementId: BFJaBTxLXUyFuKewEc3IEA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://katalon-demo-cura.herokuapp.com/
+    type: Input
+auxTests: []
+elements:
+- id: SVwGzJZ12E2j5jEyZEPTow
+  name: I
+  type:
+    id: jUwODgyNjAyNzk2NTk2MjQ
+    name: i
+    source: System
+  locators:
+  - name: XPATH
+    value: //body/a/i
+    priority: 0
+  - name: XPATH
+    value: /html/body/a/i
+    priority: 1
+- id: EtNyreKLOUe-DqcyR-LG4g
+  name: Login
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Login']
+    priority: 0
+  - name: XPATH
+    value: //nav/ul/li[3]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/nav/ul/li[3]/a
+    priority: 2
+- id: 0YUzLhT8tEaTHzJyxzq__w
+  name: username1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#txt-username'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='username']"
+    priority: 1
+  - name: XPATH
+    value: //div[2]/div/input[@placeholder = 'Username']
+    priority: 2
+  - name: XPATH
+    value: //div[2]/div/input
+    priority: 3
+  - name: XPATH
+    value: /html/body/section/div/div/div[2]/form/div[2]/div/input
+    priority: 4
+- id: isA3s9mjDECrwunjBJirkA
+  name: password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#txt-password'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 1
+  - name: XPATH
+    value: //div[3]//input[@placeholder = 'Password']
+    priority: 2
+  - name: XPATH
+    value: //div[3]//input
+    priority: 3
+  - name: XPATH
+    value: /html/body/section/div/div/div[2]/form/div[3]/div/input
+    priority: 4
+- id: sC_-B7qE2ke34_KbAWeSUA
+  name: Login1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#btn-login'
+    priority: 0
+  - name: XPATH
+    value: //button[. = 'Login']
+    priority: 1
+  - name: XPATH
+    value: //button
+    priority: 2
+  - name: XPATH
+    value: /html/body/section/div/div/div[2]/form/div[4]/div/button
+    priority: 3
+- id: pFePKbgeekavst6o_ofxtg
+  name: facility
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#combo_facility'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='facility']"
+    priority: 1
+  - name: XPATH
+    value: //select
+    priority: 2
+  - name: XPATH
+    value: /html/body/section/div/div/form/div[1]/div/select
+    priority: 3
+- id: _7aWjLAKzkeLHQLdIesdcA
+  name: hospital_readmission
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDk
+    name: Checkbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#chk_hospotal_readmission'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='hospital_readmission']"
+    priority: 1
+  - name: XPATH
+    value: //div[2]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/section/div/div/form/div[2]/div/label/input
+    priority: 3
+- id: FMoqa3wHeku6Oqrcl73T8A
+  name: programs
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDg
+    name: Radio
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#radio_program_medicaid'
+    priority: 0
+  - name: XPATH
+    value: //label[2]/input
+    priority: 1
+  - name: XPATH
+    value: /html/body/section/div/div/form/div[3]/div/label[2]/input
+    priority: 2
+- id: 8dGkdWcVDUCmaBESGJqHWg
+  name: visit_date
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#txt_visit_date'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='visit_date']"
+    priority: 1
+  - name: XPATH
+    value: //input[@placeholder = 'dd/mm/yyyy']
+    priority: 2
+  - name: XPATH
+    value: //div/input
+    priority: 3
+  - name: XPATH
+    value: /html/body/section/div/div/form/div[4]/div/div/input
+    priority: 4
+- id: 6VXEBT9IIUuB6AJVvtOx0A
+  name: 27
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTY
+    name: TableCell
+    source: System
+  locators:
+  - name: XPATH
+    value: //td[3][. = '27']
+    priority: 0
+  - name: XPATH
+    value: //tr[5]/td[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/table/tbody/tr[5]/td[3]
+    priority: 2
+- id: ZvSlKPjrDE6N8rUqE3fpNg
+  name: comment
+  type:
+    id: jUwODgyNjAyNzk2NTk2OTA
+    name: textarea
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#txt_comment'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='comment']"
+    priority: 1
+  - name: XPATH
+    value: //textarea[@placeholder = 'Comment']
+    priority: 2
+  - name: XPATH
+    value: //textarea
+    priority: 3
+  - name: XPATH
+    value: /html/body/section/div/div/form/div[5]/div/textarea
+    priority: 4
+- id: KwQhDNDd6kuJU6XUXgDUWg
+  name: Book Appointment
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#btn-book-appointment'
+    priority: 0
+  - name: XPATH
+    value: //button[. = 'Book Appointment']
+    priority: 1
+  - name: XPATH
+    value: //button
+    priority: 2
+  - name: XPATH
+    value: /html/body/section/div/div/form/div[6]/div/button
+    priority: 3
+- id: BFJaBTxLXUyFuKewEc3IEA
+  name: Go to Homepage
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Go to Homepage']
+    priority: 0
+  - name: XPATH
+    value: //p/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/section/div/div/div[7]/p/a
+    priority: 2
+projectParameters: []
+addons: []

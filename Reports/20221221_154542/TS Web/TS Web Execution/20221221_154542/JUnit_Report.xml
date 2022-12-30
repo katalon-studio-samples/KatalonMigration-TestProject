@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS Web Execution" time="56.102" tests="1" failures="0" errors="0">
+   <testsuite name="TS Web Execution" tests="1" failures="0" errors="0" time="56.102" skipped="0" timestamp="2022-12-21 15:46:35" hostname="mohit - 192.168.1.102" id="Test Suites/TS Web/TS Web Execution">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mohit/git/Katalon-TestProject-Migration/Reports/20221221_154542/TS Web/TS Web Execution/20221221_154542"/>
+         <property name="logFiles" value="/Users/mohit/git/Katalon-TestProject-Migration/Reports/20221221_154542/TS Web/TS Web Execution/20221221_154542/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mohit - 192.168.1.102"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.102"/>
+         <property name="sessionId" value="bc4f6be9a8132e4a2cf7e8c08d0accb0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=false }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Web/Web Advanced Run -TestCase1_KatalonDemo" time="55.694" classname="Test Cases/Web/Web Advanced Run -TestCase1_KatalonDemo" status="PASSED">
+         <system-out><![CDATA[2022-12-21 15:46:35 - [TEST_CASE][PASSED] - Test Cases/Web/Web Advanced Run -TestCase1_KatalonDemo: Test Cases/Web/Web Advanced Run -TestCase1_KatalonDemo
+
+2022-12-21 15:46:35 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2022-12-21 15:46:35 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+2022-12-21 15:46:35 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2022-12-21 15:46:36 - [TEST_STEP][PASSED] - TestCase1_KatalonDemo = ["Include/resource/TestCase1_KatalonDemo.xml"]: null
+
+2022-12-21 15:46:36 - [TEST_STEP][PASSED] - runTestNGTestSuites(TestCase1_KatalonDemo, STOP_ON_FAILURE): Running TestNG test suites: '[Include/resource/TestCase1_KatalonDemo.xml]' passed
+
+2022-12-21 15:46:36 - [MESSAGE][INFO] - Starting runTestNGTestSuites keyword and extract report to folder: '/Users/mohit/git/Katalon-TestProject-Migration/Reports/20221221_154542/TS Web/TS Web Execution/20221221_154542/testng_report/1671617796257'...
+
+2022-12-21 15:46:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-21 15:46:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-21 15:46:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-21 15:47:31 - [MESSAGE][PASSED] - Running TestNG test suites: '[Include/resource/TestCase1_KatalonDemo.xml]' passed
+
+2022-12-21 15:47:31 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+2022-12-21 15:47:31 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-21 15:46:35 - [TEST_SUITE][PASSED] - TS Web Execution: Test Cases/Web/Web Advanced Run -TestCase1_KatalonDemo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

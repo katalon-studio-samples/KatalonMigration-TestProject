@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="User acceptance TestSuite">
+	<test name="TestProject Katalon Validattion">
+		<classes>
+			<class name="io.testproject.generated.tests.nucleusautomation.Login1Ftv2" />
+		</classes>
+	</test>
+</suite>

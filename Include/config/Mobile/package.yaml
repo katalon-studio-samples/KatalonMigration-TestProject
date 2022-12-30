@@ -1,0 +1,311 @@
+id: ZZ8j_NrDHUizhqPfJMDGfg
+projectId: 1-tba4LbxUGQjX_WTIs76w
+projectName: Katalon Test Project
+created: 2022-12-05T07:34:31.3974632Z
+owner: Mohit Kumar
+protocol: 1
+tests:
+- id: Yqe50MXdpUqDvqpihX4vWw
+  name: Mobile Test
+  description: ''
+  platform: Android
+  type: Mobile
+  driverType: Appium_Android
+  version: 0.1
+  creationDate: 2022-12-05T07:28:53.0000000
+  modificationDate: 2022-12-05T07:29:44.0000000
+  settings:
+    automationAssistant: true
+    deviceId: emulator-5554
+    appId: BrWtvV1rlUGZUWGVjnAYkg
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: BrWtvV1rlUGZUWGVjnAYkg
+    name: APIDemos
+    platform: Android
+    hash: 944a8af85e5e0aa9a061bd3a1dba2fa1
+  steps:
+  - id: pe4RlJa8LkuuTwV4dUCoQQ
+    comments: Clear application data and restart (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 1b89acc3-5003-4ae6-a8c1-c1732e09ef45
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Zzavt2_5kkahoAnCTtWN7A
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: pIirqUk5XUq0FDFOkASZ7g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dlalUZQh30CXNp-Jq5aDcA
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: xtTa0o0D70SWy0-bdGxkUQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: SI9uYbHjb02yUD7xOjXuXA
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: DJzGqDQtQUmy2KZtSDPweg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zHgf6x9G3Emnr5U4Nw0MIw
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: b_9A1kEaU0m-2-iGra1Eqw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GaAWIGFE-k6EyFL5g7wlEg
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: H3z8kwJc5EmnP1WBek_qVw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5MdmWD6EfkSmyDLLeKKqsA
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: bFFLh3ftoEaeE1QfwzABUA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: PDO36sTyVk6Pkfs-ldtgBg
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: oussNtpLmUSOu6RQK8FUqg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: pIirqUk5XUq0FDFOkASZ7g
+  name: API Demos
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'API Demos']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[2]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.ListView[1]/android.widget.TextView[2]
+    priority: 2
+- id: xtTa0o0D70SWy0-bdGxkUQ
+  name: App
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'App']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[3]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.ListView[1]/android.widget.TextView[3]
+    priority: 2
+- id: DJzGqDQtQUmy2KZtSDPweg
+  name: Activity
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Activity']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[2]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.ListView[1]/android.widget.TextView[2]
+    priority: 2
+- id: b_9A1kEaU0m-2-iGra1Eqw
+  name: Presentation
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Presentation']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[12]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.ListView[1]/android.widget.TextView[12]
+    priority: 2
+- id: H3z8kwJc5EmnP1WBek_qVw
+  name: Show all displays
+  type:
+    id: jUwODgyNjAyNzk2NTk3MDg
+    name: android.widget.CheckBox
+    source: System
+  locators:
+  - name: ID
+    value: com.touchboarder.android.api.demos:id/show_all_displays
+    priority: 0
+  - name: XPATH
+    value: //android.widget.CheckBox[@text = 'Show all displays']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.CheckBox
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.CheckBox[1]
+    priority: 3
+- id: bFFLh3ftoEaeE1QfwzABUA
+  name: com.touchboarder.android.api.demos:id...
+  type:
+    id: jUwODgyNjAyNzk2NTk3MDg
+    name: android.widget.CheckBox
+    source: System
+  locators:
+  - name: ID
+    value: com.touchboarder.android.api.demos:id/checkbox_presentation
+    priority: 0
+  - name: XPATH
+    value: //android.widget.RelativeLayout/android.widget.CheckBox
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.RelativeLayout[1]/android.widget.CheckBox[1]
+    priority: 2
+- id: oussNtpLmUSOu6RQK8FUqg
+  name: com.touchboarder.android.api.demos:id...1
+  type:
+    id: jUwODgyNjAyNzk2NTk3MjQ
+    name: android.widget.ListView
+    source: System
+  locators:
+  - name: ID
+    value: com.touchboarder.android.api.demos:id/display_list
+    priority: 1
+  - name: XPATH
+    value: //android.widget.ListView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]
+    priority: 2
+projectParameters: []
+addons: []

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "32BA4F3FB004531B09D9014CF68E61D5",
+  "keywordClasses": [
+    {
+      "name": "com.katalon.junit4ks.IgnoreRestSupportRunner",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

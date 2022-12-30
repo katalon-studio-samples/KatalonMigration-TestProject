@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS Web Execution,Chrome 108.0.0.0,,,2022-12-21 15:46:35,2022-12-21 15:47:31,56.102s,PASSED
+,,,,,,,
+Test Cases/Web/Web Advanced Run -TestCase1_KatalonDemo,Chrome 108.0.0.0,,,2022-12-21 15:46:35,2022-12-21 15:47:31,55.694s,PASSED
+Start listener action : enableSauceLabs,Chrome 108.0.0.0,,,2022-12-21 15:46:35,2022-12-21 15:46:35,0.022s,PASSED
+"TestCase1_KatalonDemo = [""Include/resource/TestCase1_KatalonDemo.xml""]",Chrome 108.0.0.0,,,2022-12-21 15:46:36,2022-12-21 15:46:36,0.001s,PASSED
+"runTestNGTestSuites(TestCase1_KatalonDemo, STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2022-12-21 15:46:36,2022-12-21 15:47:31,55.178s,PASSED
+Start listener action : autoUpdateJobStatus,Chrome 108.0.0.0,,,2022-12-21 15:47:31,2022-12-21 15:47:31,0.001s,PASSED

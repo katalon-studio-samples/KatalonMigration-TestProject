@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "24D3A1880C7230DDFAF1BC78E8F1AC37",
+  "keywordClasses": [
+    {
+      "name": "com.katalon.junit4ks.JUnitRunnerResultImpl",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
