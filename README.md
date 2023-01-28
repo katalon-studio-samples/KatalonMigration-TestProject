@@ -20,6 +20,9 @@ TestProject uses OpenSDK with JUnit 5 for building and execution of the Test cas
 
 * Import all the required jars(build.gradle)
 
+![image](https://user-images.githubusercontent.com/84115288/215267567-f7320a19-61b1-4970-ac3d-2814e8a591d6.png)
+
+
 * Add all your project file into Include >> Script >>groovy
 
 ![image](https://user-images.githubusercontent.com/84115288/210084671-bed87d11-1cdf-4501-9d84-fb0dea43ef5a.png)
