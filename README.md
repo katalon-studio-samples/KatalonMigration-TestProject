@@ -30,6 +30,7 @@ TestProject uses OpenSDK with JUnit 5 for building and execution of the Test cas
 * Users have to fix all the errors.
 
 * Change Junit 5 annotation to TestNG/Junit 4.(KS does not support Junit 5 for now)
+
   @BeforeAll >> @BeforeClass
   @AfterAll >> @AfterClass
 
