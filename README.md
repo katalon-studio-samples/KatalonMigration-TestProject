@@ -30,20 +30,22 @@ TestProject uses OpenSDK with JUnit 5 for building and execution of the Test cas
 * Users have to fix all the errors.
 
 * Change Junit 5 annotation to TestNG/Junit 4.(KS does not support Junit 5 for now)
-@BeforeAll >> @BeforeClass
-@AfterAll >> @AfterClass
+  @BeforeAll >> @BeforeClass
+  @AfterAll >> @AfterClass
 
 * Add @Test Annotation before the method "void execute()"
-* Initiliza Katalon Web Driver inside the @beforeClass
 
-For Web Based application:
+* Initialise Katalon Web Driver inside the @beforeClass
 
-    WebUiBuiltInKeywords.openBrowser("");
+  For Web Based application:
+
+          WebUiBuiltInKeywords.openBrowser("");
 	  WebUiBuiltInKeywords.maximizeWindow();
 	  driver = DriverFactory.getWebDriver();
     
- For Mobile:
-    String dirName = RunConfiguration.getProjectDir():
+   For Mobile:
+   
+          String dirName = RunConfiguration.getProjectDir():
 	  MobileBuiltInKeywords.startApplication(dirName+"/App/APIDemos.apk", false);
 	  driver = MobileDriverFactory.getDriver();
 
