@@ -4,7 +4,7 @@ This project demonstrates how katalon studio helps users to use their existing T
 
 # Requirement
 
-* Katalon Studio version 7.4.0 onwards.
+* [Katalon Studio][KS] version 7.4.0 onwards.
 * TestProject sample Project
 * Basic understanding of Junit and TestNG.
 * Junit/TestNG plugin. [Here][2]
@@ -71,3 +71,4 @@ Thanks
 
 [1]: <https://docs.katalon.com/docs/general-information/proof-of-concept/dependencies-management-with-native-gradle-support-poc-in-katalon-studio#gradle-settings-in-katalon-studio> "Here"
 [2]: <https://store.katalon.com/product/180/TestNG-JUnit-Keywords> "Here"
+[KS]: <https://docs.katalon.com/docs/get-started/katalon-studio-installation/install-katalon-studio-on-macoswindows#download-katalon-studio> "Katalon Studio"
