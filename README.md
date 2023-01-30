@@ -20,7 +20,7 @@ TestProject uses OpenSDK with Junit 5 for building and execution of the test cas
 
 ![image](https://user-images.githubusercontent.com/84115288/210084530-22a208fa-c8a0-4834-b03a-a7c5e085d33a.png)
 
-* Import all the required jars(build.gradle)
+* Import all the required jars(build.gradle) [Here][1]
 
 ![image](https://user-images.githubusercontent.com/84115288/215267567-f7320a19-61b1-4970-ac3d-2814e8a591d6.png)
 
@@ -67,3 +67,5 @@ TestProject uses OpenSDK with Junit 5 for building and execution of the test cas
 ![image](https://user-images.githubusercontent.com/84115288/210085236-3c2b9cb4-a59e-4722-9d73-4b8cbf10bfb1.png)
 
 Thanks
+
+[1]: <https://docs.katalon.com/docs/general-information/proof-of-concept/dependencies-management-with-native-gradle-support-poc-in-katalon-studio#gradle-settings-in-katalon-studio> "Here"
