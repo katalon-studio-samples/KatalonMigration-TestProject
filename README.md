@@ -7,7 +7,7 @@ This project demonstrates how katalon studio helps users to use their existing T
 * Katalon Studio version 7.4.0 onwards.
 * TestProject sample Project
 * Basic understanding of Junit and TestNG.
-* Junit/TestNG plugin https://store.katalon.com/product/180/TestNG-JUnit-Keywords
+* Junit/TestNG plugin. [Here][2]
 
 # TestProject
 
@@ -70,3 +70,4 @@ Thanks
 
 
 [1]: <https://docs.katalon.com/docs/general-information/proof-of-concept/dependencies-management-with-native-gradle-support-poc-in-katalon-studio#gradle-settings-in-katalon-studio> "Here"
+[2]: <https://store.katalon.com/product/180/TestNG-JUnit-Keywords> "Here"
