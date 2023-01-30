@@ -1,22 +1,22 @@
 # Introduction:
 
-This project demonstrates how katalon studio helps users to use their existing TestProject based project into Katalon Studio. it conatins some of the test cases for Web Mobile and API test Migration.
+This project demonstrates how katalon studio helps users to use their existing TestProject based project into Katalon Studio. it conatins some of the test cases for Web Mobile and API test migration.
 
 # Requirement
 
 * Katalon Studio
-* TestProject Sample Project
-* Basic understanding of Juniot and TestNG.
-* Junit/TestNG Plugin https://store.katalon.com/product/180/TestNG-JUnit-Keywords
+* TestProject sample Project
+* Basic understanding of Junit and TestNG.
+* Junit/TestNG plugin https://store.katalon.com/product/180/TestNG-JUnit-Keywords
 
 # TestProject
 
-TestProject is an end-to-end automation tool that provides capabilities to automate Web, API, and Mobile applications. It is an open-source friendly tool built on top of Selenium and Appium.
-TestProject uses OpenSDK with JUnit 5 for building and execution of the Test cases.
+TestProject is an end-to-end automation tool that provides capabilities to automate Web, API, and Mobile applications. It is an open-source friendly tool built on top of selenium and appium.
+TestProject uses OpenSDK with Junit 5 for building and execution of the test cases.
 
 # How to migrate:
 
-* Download a TestProject Sample Project.
+* Download a TestProject sample project.
 
 ![image](https://user-images.githubusercontent.com/84115288/210084530-22a208fa-c8a0-4834-b03a-a7c5e085d33a.png)
 
@@ -38,9 +38,9 @@ TestProject uses OpenSDK with JUnit 5 for building and execution of the Test cas
 
 * Add @Test Annotation before the method "void execute()".
 
-* Initialise Katalon Web Driver inside the @BeforeClass.
+* Initialise Katalon Webdriver inside the @BeforeClass.
 
-  For Web Based application:
+  For Web based application:
 
           WebUiBuiltInKeywords.openBrowser("");
 	  WebUiBuiltInKeywords.maximizeWindow();
@@ -54,7 +54,7 @@ TestProject uses OpenSDK with JUnit 5 for building and execution of the Test cas
 
 ![image](https://user-images.githubusercontent.com/84115288/210084851-39692b4d-4d0e-4860-8ff5-6c1896a9766e.png)
 
-* Prepare TestNG.xml file by adding Class name.
+* Prepare TestNG.xml file by adding class name.
 
 ![image](https://user-images.githubusercontent.com/84115288/210084933-dfa55136-550c-470c-985d-50015b38e464.png)
 
@@ -62,7 +62,7 @@ TestProject uses OpenSDK with JUnit 5 for building and execution of the Test cas
 
 ![image](https://user-images.githubusercontent.com/84115288/210085012-b7c67da6-122e-41cc-8964-8e17bfa9ae2c.png)
 
-* Verify test Execution Result
+* Verify test execution result
 
 ![image](https://user-images.githubusercontent.com/84115288/210085236-3c2b9cb4-a59e-4722-9d73-4b8cbf10bfb1.png)
 
