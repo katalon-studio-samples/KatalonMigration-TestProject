@@ -4,7 +4,7 @@ This project demonstrates how katalon studio helps users to use their existing T
 
 # Requirement
 
-* Katalon Studio
+* Katalon Studio version 7.4.0 onwards.
 * TestProject sample Project
 * Basic understanding of Junit and TestNG.
 * Junit/TestNG plugin https://store.katalon.com/product/180/TestNG-JUnit-Keywords
