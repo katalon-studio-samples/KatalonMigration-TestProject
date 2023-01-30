@@ -66,7 +66,6 @@ TestProject uses OpenSDK with Junit 5 for building and execution of the test cas
 
 ![image](https://user-images.githubusercontent.com/84115288/210085236-3c2b9cb4-a59e-4722-9d73-4b8cbf10bfb1.png)
 
-Thanks
 
 
 [1]: <https://docs.katalon.com/docs/general-information/proof-of-concept/dependencies-management-with-native-gradle-support-poc-in-katalon-studio#gradle-settings-in-katalon-studio> "Here"
