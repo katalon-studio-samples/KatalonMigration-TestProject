@@ -58,11 +58,12 @@ TestProject uses OpenSDK with Junit 5 for building and execution of the test cas
 
 ![image](https://user-images.githubusercontent.com/84115288/210084933-dfa55136-550c-470c-985d-50015b38e464.png)
 
-* Prepare the test cases by adding TestNG or Junit Keywords and run the Test.
+* Prepare the test cases by adding TestNG or Junit Keywords
+* Run the test execution. [Here][3]
 
 ![image](https://user-images.githubusercontent.com/84115288/210085012-b7c67da6-122e-41cc-8964-8e17bfa9ae2c.png)
 
-* Verify test execution result
+* Verify test execution result. [Here][4]
 
 ![image](https://user-images.githubusercontent.com/84115288/210085236-3c2b9cb4-a59e-4722-9d73-4b8cbf10bfb1.png)
 
@@ -71,3 +72,6 @@ TestProject uses OpenSDK with Junit 5 for building and execution of the test cas
 [1]: <https://docs.katalon.com/docs/general-information/proof-of-concept/dependencies-management-with-native-gradle-support-poc-in-katalon-studio#gradle-settings-in-katalon-studio> "Here"
 [2]: <https://store.katalon.com/product/180/TestNG-JUnit-Keywords> "Here"
 [KS]: <https://docs.katalon.com/docs/get-started/katalon-studio-installation/install-katalon-studio-on-macoswindows#download-katalon-studio> "Katalon Studio"
+
+[3]: <https://docs.katalon.com/docs/execute/execute-tests-with-katalon-studio/execute-tests-with-katalon-studio-overview#ariaid-title1> "Here"
+[4]: <https://docs.katalon.com/docs/analyze/reports/view-test-reports/view-test-reports-in-katalon-testops/view-test-results-and-execution-logs-in-katalon-testops#ariaid-title1> "Here"
