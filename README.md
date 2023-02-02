@@ -68,10 +68,6 @@ TestProject uses OpenSDK with Junit 5 for building and execution of the test cas
 ![image](https://user-images.githubusercontent.com/84115288/210085236-3c2b9cb4-a59e-4722-9d73-4b8cbf10bfb1.png)
 
 
-**Repository for the [Sample Project][SP].**
-
-[SP]: <https://github.com/katalon-studio-samples/Katalon-Migration-TestProject.git> "Sample Project"
-
 [1]: <https://docs.katalon.com/docs/general-information/proof-of-concept/dependencies-management-with-native-gradle-support-poc-in-katalon-studio#gradle-settings-in-katalon-studio> "Here"
 [2]: <https://store.katalon.com/product/180/TestNG-JUnit-Keywords> "Junit/TestNG plugin"
 [KS]: <https://docs.katalon.com/docs/get-started/katalon-studio-installation/install-katalon-studio-on-macoswindows#download-katalon-studio> "Katalon Studio"
